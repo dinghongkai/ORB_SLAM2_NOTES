@@ -71,7 +71,7 @@ System::System(const string &strVocFile,	   // 词典文件路径
     // 建立一个新的 ORB 字典
     mpVocabulary = new ORBVocabulary();
     // 获取字典加载状态
-    bool bVocLoad = mpVocabulary->loadFromTextFile(strVocFile);
+    bool bVocLoad = mpVocabulary->loadFromBinaryFile(strVocFile);
     if(!bVocLoad)
     {
         cerr << "Wrong path to vocabulary. " << endl;

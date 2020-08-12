@@ -1,0 +1,6 @@
+/home/hongkai/software/clion-2020.1.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/hongkai/disk/project/slam/ORB_SLAM2_NOTES
+Build type: Debug
+-- Using flag -std=c++11.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/hongkai/disk/project/slam/ORB_SLAM2_NOTES/cmake-build-debug
